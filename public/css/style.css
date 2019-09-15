@@ -1,0 +1,32 @@
+.sitemap {
+    padding: 1.875em 1em;
+    background: #fff;
+    box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+    margin-bottom: 2.5em;
+    margin-left: 25%;
+    width: 50%;
+}
+.sitemap ul li {
+    margin: 0 0 10px;
+}
+.orders .orders__tab:not(active) {
+    cursor: pointer;
+}
+.order__product-block {
+    background-color: white;
+    -webkit-box-shadow: 5px 6px 20px -4px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 6px 20px -4px rgba(0,0,0,0.29);
+    box-shadow: 5px 6px 20px -4px rgba(0,0,0,0.29);
+}
+.order__product-block:hover {
+    background-color: #fffc0059;
+}
+.order__product-card {
+    width: 18rem;
+}
+.order__total-price {
+    padding-top: 7px;
+}
+.order__error {
+    padding: 15px;
+}
